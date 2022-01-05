@@ -1,0 +1,20 @@
+{
+    "name": "@intouchg/rename-files",
+    "version": "0.0.1",
+    "description": "Simple Node CLI to rename, move, and delete files using a config file",
+    "bin": {
+      "rename-files": "lib/cli.js"
+    },
+    "repository": "https://github.com/intouchg/rename-files",
+    "author": "Intouch Group",
+    "license": "MIT",
+    "scripts": {
+      "test": "node lib/cli.js"
+    },
+    "dependencies": {
+      "glob": "7.2.0"
+    },
+    "devDependencies": {},
+    "peerDependencies": {}
+  }
+  
