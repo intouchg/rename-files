@@ -1,6 +1,6 @@
 {
     "name": "@intouchg/rename-files",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Simple Node CLI to rename, move, and delete files using a config file",
     "bin": {
       "rename-files": "lib/cli.js"

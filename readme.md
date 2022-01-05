@@ -58,13 +58,13 @@ module.exports = {
 
 **`patterns`** - Required. This array contains all `pattern` objects which control renaming and deleting files.
 
-To delete a file, create a `patterns` object with a `delete` path, relative to the `context`. The `delete` filepath supports full glob pattern matching.
+To delete a file, create a pattern object with a `delete` path, relative to the `context`. The `delete` filepath supports full glob pattern matching.
 
-To rename or move a file, create a `patterns` object with `from` and `to` paths, relative to the `context`:
+To rename or move a file, create a pattern object with `from` and `to` paths, relative to the `context`.
 
-The `patterns` object `from` filepath supports full glob pattern matching.
+The `from` filepath supports full glob pattern matching.
 
-The `patterns` object `to` filepath supports a single wildcard character `*` which will be replaced by everything that was *magically matched* by glob. This is suitable for simple glob-based replacements:
+The `to` filepath supports a single wildcard character `*` which will be replaced by everything that was *magically matched* by glob. This is suitable for simple glob-based replacements:
 
 ```js
 module.exports = {
